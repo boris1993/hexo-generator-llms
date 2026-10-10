@@ -17,7 +17,7 @@ your content hierarchy (headings, lists, tables) without visual-markup noise.
 ## Install
 
 ```sh
-npm install hexo-generator-llms
+npm install @boris1993/hexo-generator-llms
 ```
 
 The plugin auto-loads (its name starts with `hexo-`). On the next `hexo generate` it emits, for
