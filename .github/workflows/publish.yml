@@ -10,7 +10,6 @@ concurrency:
 
 jobs:
   publish:
-    if: github.event.release.target_commitish == 'main' || startsWith(github.event.release.tag_name, 'v')
     runs-on: ubuntu-latest
 
     permissions:
