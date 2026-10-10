@@ -1,7 +1,7 @@
 # hexo-generator-llms
 
-[![npm version](https://img.shields.io/npm/v/hexo-generator-llms.svg)](https://www.npmjs.com/package/hexo-generator-llms)
-[![GitHub License](https://img.shields.io/github/license/ssarcandy/hexo-generator-llms)](./LICENSE)
+[![npm version](https://img.shields.io/npm/v/@boris1993/hexo-generator-llms.svg)](https://www.npmjs.com/package/@boris1993/hexo-generator-llms)
+[![GitHub License](https://img.shields.io/github/license/boris1993/hexo-generator-llms)](./LICENSE)
 
 **GEO (Generative Engine Optimization) for Hexo.**
 
