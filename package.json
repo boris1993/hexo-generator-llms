@@ -1,6 +1,6 @@
 {
   "name": "@boris1993/hexo-generator-llms",
-  "version": "0.1.3",
+  "version": "0.1.2",
   "description": "GEO for Hexo: generate a Markdown (.md) twin of every page plus llms.txt so AI/LLM crawlers get clean, token-efficient content (generative engine optimization).",
   "author": "boris1993",
   "repository": {
