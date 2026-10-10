@@ -5,6 +5,7 @@ const assert = require('node:assert/strict');
 
 const {
     normalizePath,
+    pageUrl,
     markdownPath,
     markdownUrl
 } = require('../lib/util');
@@ -15,6 +16,13 @@ test('normalizePath keeps the emitted key independent of HTML file name form', (
     assert.strictEqual(normalizePath('foo/index.html'), 'foo/');
     assert.strictEqual(normalizePath('/foo/index.html'), 'foo/');
     assert.strictEqual(normalizePath('foo.html'), 'foo.html/');
+});
+
+test('pageUrl preserves explicit HTML filenames and normalizes directory paths', () => {
+    const config = { url: 'https://example.com/' };
+
+    assert.strictEqual(pageUrl(config, 'foo.html'), 'https://example.com/foo.html');
+    assert.strictEqual(pageUrl(config, 'foo/'), 'https://example.com/foo/');
 });
 
 test('markdownPath converts .html files to sibling .md files', () => {
