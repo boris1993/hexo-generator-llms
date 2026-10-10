@@ -1,16 +1,19 @@
 {
-  "name": "hexo-generator-llms",
-  "version": "0.1.1",
+  "name": "@boris1993/hexo-generator-llms",
+  "version": "0.1.2",
   "description": "GEO for Hexo: generate a Markdown (.md) twin of every page plus llms.txt so AI/LLM crawlers get clean, token-efficient content (generative engine optimization).",
-  "author": "SSARCandy",
+  "author": "boris1993",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SSARCandy/hexo-generator-llms.git"
+    "url": "git+https://github.com/boris1993/hexo-generator-llms.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "bugs": {
-    "url": "https://github.com/SSARCandy/hexo-generator-llms/issues"
+    "url": "https://github.com/boris1993/hexo-generator-llms/issues"
   },
-  "homepage": "https://github.com/SSARCandy/hexo-generator-llms#readme",
+  "homepage": "https://github.com/boris1993/hexo-generator-llms#readme",
   "main": "index.js",
   "files": [
     "index.js",
