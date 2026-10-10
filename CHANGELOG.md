@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/boris1993/hexo-generator-llms/compare/v0.1.3...v0.1.4) (2026-10-10)
+
+
+### Miscellaneous Chores
+
+* release 0.1.4 ([e7f3466](https://github.com/boris1993/hexo-generator-llms/commit/e7f3466bfe498955a0b01af4132f070ebc9d2dff))
+
 ## [0.1.3](https://github.com/boris1993/hexo-generator-llms/compare/v0.1.2...v0.1.3) (2026-10-10)
 
 
