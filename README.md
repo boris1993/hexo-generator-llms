@@ -2,6 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@boris1993/hexo-generator-llms.svg)](https://www.npmjs.com/package/@boris1993/hexo-generator-llms)
 [![GitHub License](https://img.shields.io/github/license/boris1993/hexo-generator-llms)](./LICENSE)
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/boris1993/hexo-generator-llms/publish.yml)](https://github.com/boris1993/hexo-generator-llms/actions/workflows/publish.yml)
 
 **GEO (Generative Engine Optimization) for Hexo.**
 
@@ -84,3 +85,10 @@ file rather than a Markdown body) have no meaningful body to convert — list th
 ## License
 
 MIT
+
+## Donation
+
+<a href="https://www.buymeacoffee.com/boris1993" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" style="height: 60px !important;width: 217px !important;" >
+</a>
+
